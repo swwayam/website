@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Inter:wght@300;400;700&family=Itim&family=Poppins:wght@300;600;700&family=Roboto&display=swap');
+/* second page css */
+.Products-section {
+    width: 390px;
+    height: 844px;
+    background: #FFFFFF;
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+
+}
+/* cards css */
+.card{
+    margin: 40px auto ;
+}
+
+.img{
+    width: 120px;
+}
+.dhoties {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(166, 166, 166, 0.01);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    border-radius: 33px;
+    width: 312px;
+    height: 204px;
+
+
+}
+
+.Dhoties-card-right h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    height: 50px;
+    color: #000000;
+}
+
+.Dhoties-card-right p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: grid;
+   grid-row: auto;
+    color: #000000;
+}
+
+.Lungi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(166, 166, 166, 0.01);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    border-radius: 33px;
+    width: 312px;
+    height: 204px;
+
+}
+.Lungi-card-left img{
+    margin: 7px;
+}
+
+.Lungi-card-right h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    height: 50px;
+    color: #000000;
+}
+
+.Lungi-card-right p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: grid;
+        grid-row: auto;
+    color: #000000;
+}
+
+.Scarfs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(166, 166, 166, 0.01);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    border-radius: 33px;
+    width: 312px;
+    height: 204px;
+
+}
+.Scarfs-card-left img{
+    margin: 7px;
+}
+.Scarfs-card-right{
+    margin-left: 4px;}
+
+.Scarfs-card-right h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    height: 50px;
+    color: #000000;
+}
+
+.Scarfs-card-right p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+display: grid;
+    grid-row: auto;
+    color: #000000;
+
+}
+/* third page css */
+.third-page {
+    width: 390px;
+    height: 844px;
+}
+.half-of-product-section{
+    background: #FFFFFF;
+        display: grid;
+        justify-content: center;
+        width: 390px;
+            height: 300px;
+}
+
+.Shirting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(166, 166, 166, 0.01);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    border-radius: 33px;
+    width: 312px;
+    height: 207px;
+
+}
+.Shirting-card-right{
+margin-left: 3px;
+}
+.Shirting-card-left img{
+margin: 10px;
+}
+
+.Shirting-card-right h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 35px;
+    height: 55px;
+    color: #000000;
+}
+
+.Shirting-card-right p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: grid;
+        grid-row: auto;
+    color: #000000;
+margin-top: 22px;
+}
+/* about us css */
+.about-us-container{
+        width: 390px;
+        height: 283px;
+        left: 0px;
+        top: 300px;
+        background: rgba(0, 0, 0, 0.77);
+}
+
+.about-left{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.container2{
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 14px;
+}
+#heading{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 35px;
+    color: #FFFFFF;
+    padding-top: 8px;
+}
+.text-in-about{
+    margin-left: 20px;
+    height: 203px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+a.read-more {
+    color: #0080DC;
+    margin-top: 13px;
+    
+    
+}
+.image{
+
+width: 144px;
+    height: 137px;
+    border-radius: 72px;
+}
+.founder-text{
+font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+text-align: center;
+    color: #FFFFFF;
+}
+.founder-name{
+font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+text-align: center;
+    color: #FFFFFF;
+}
+/* contact css */
+.Contact-section{
+    width: 390px;
+    height: 146px;
+    margin-top: 22px;
+}
+#heading2{
+    text-align: center;
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        color: #000000;
+        padding-top: 20px;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-evenly;
+margin-top: 18px;
+
+}
+.phone{
+    height: 29px;
+}
+b.phone-no{
+    color: black;
+border-right-style: solid;
+
+}
+.Contact-section p{
+    color: #1F5F01;
+    height: 15px;
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+  
+}
+/* footer css */
+.footer-container{
+    width: 390px;
+        height: 115px;
+        left: 0px;
+        top: 729px;
+    
+        background: #000000;
+}
+#first{
+color: #FFFFFF;
+font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+}
+#second{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+}
+.footer-upper-section{
+display: flex;
+justify-content: space-between;
+
+}
+.footer-lower-section{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 8px;
+        margin-top: 13px;
+}
