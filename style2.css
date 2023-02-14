@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Inter:wght@300;400;700&family=Itim&family=Poppins:wght@300;600;700&family=Roboto&display=swap');
 /* second page css */
 .Products-section {
-    width: 390px;
-    height: 844px;
+  
     background: #FFFFFF;
     display: grid;
     grid-template-rows: auto;
@@ -12,6 +11,7 @@
 /* cards css */
 .card{
     margin: 40px auto ;
+    width: 80%;
 }
 
 .img{
@@ -25,7 +25,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(2px);
     border-radius: 33px;
-    width: 312px;
+    width: 80%;
     height: 204px;
 
 
@@ -35,7 +35,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 21px;
     line-height: 39px;
     height: 50px;
     color: #000000;
@@ -60,7 +60,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(2px);
     border-radius: 33px;
-    width: 312px;
+    width: 80%;
     height: 204px;
 
 }
@@ -72,7 +72,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 21px;
     line-height: 39px;
     height: 50px;
     color: #000000;
@@ -97,12 +97,13 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(2px);
     border-radius: 33px;
-    width: 312px;
+    width: 80%;
     height: 204px;
 
 }
 .Scarfs-card-left img{
     margin: 7px;
+    width: 100px;
 }
 .Scarfs-card-right{
     margin-left: 4px;}
@@ -111,7 +112,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 21px;
     line-height: 39px;
     height: 50px;
     color: #000000;
@@ -128,18 +129,8 @@ display: grid;
     color: #000000;
 
 }
-/* third page css */
-.third-page {
-    width: 390px;
-    height: 844px;
-}
-.half-of-product-section{
-    background: #FFFFFF;
-        display: grid;
-        justify-content: center;
-        width: 390px;
-            height: 300px;
-}
+
+
 
 .Shirting {
     display: flex;
@@ -149,23 +140,23 @@ display: grid;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(2px);
     border-radius: 33px;
-    width: 312px;
-    height: 207px;
+    width: 80%;
+    height: 204px;
+    
 
 }
-.Shirting-card-right{
-margin-left: 3px;
-}
+
 .Shirting-card-left img{
 margin: 10px;
+width: 100px;
 }
 
 .Shirting-card-right h1 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 29px;
-    line-height: 35px;
+    font-size: 21px;
+ 
     height: 55px;
     color: #000000;
 }
@@ -179,14 +170,17 @@ margin: 10px;
     display: grid;
         grid-row: auto;
     color: #000000;
-margin-top: 22px;
+
+
+    
 }
+
+
 /* about us css */
 .about-us-container{
-        width: 390px;
+        width: 100%;
         height: 283px;
-        left: 0px;
-        top: 300px;
+        margin-top: 20px;
         background: rgba(0, 0, 0, 0.77);
 }
 
@@ -267,18 +261,23 @@ text-align: center;
 }
 .contact-container{
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
 margin-top: 18px;
+width: 100%;
 
+}
+
+.num{
+    margin-bottom: 7px;
 }
 .phone{
     height: 29px;
+  
+    
 }
-b.phone-no{
-    color: black;
-border-right-style: solid;
 
-}
 .Contact-section p{
     color: #1F5F01;
     height: 15px;
@@ -286,15 +285,18 @@ border-right-style: solid;
         font-style: normal;
         font-weight: 700;
         font-size: 15px;
+        
   
+}
+.email{
+    width: 35px;
+    
 }
 /* footer css */
 .footer-container{
-    width: 390px;
-        height: 115px;
-        left: 0px;
-        top: 729px;
-    
+   width: 100%;
+        padding: 20px 0;
+
         background: #000000;
 }
 #first{
@@ -304,6 +306,8 @@ font-family: 'Inter';
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
+    text-align: center;
+    margin-left: 50px;
 }
 #second{
     font-family: 'Inter';
@@ -311,16 +315,19 @@ font-family: 'Inter';
         font-weight: 700;
         font-size: 12px;
         line-height: 15px;
+        margin-right: 30px;
         color: #FFFFFF;
 }
 .footer-upper-section{
 display: flex;
 justify-content: space-between;
+align-items: center;
 
 }
 .footer-lower-section{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     color: #FFFFFF;
     font-family: 'Inter';
         font-style: normal;
@@ -328,3 +335,17 @@ justify-content: space-between;
         font-size: 8px;
         margin-top: 13px;
 }
+
+
+.foot-left{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+}
+
+.foot-right{
+    width: 40%;
+    margin-left: 20px;
+}
+

@@ -52,25 +52,12 @@ color: rgb(0, 55, 255);
 
 /* logo css */
 .logo2{
-    margin-top: 5px;
-    margin-inline: -115px;
+    
+   width: 100%;
     
 }
-.Swap-card{
-    width: 100%;
-    height: 260px;
-    background: #FFA7A7;
-    align-items: center;
-    margin-top: 20px;
-    position: relative;
-}
-.text-on-logo{
-    position: absolute;
-    bottom: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 
-}
+
 .Second-card{
     margin: 90px auto;
     width: 80%;
